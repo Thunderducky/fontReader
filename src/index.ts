@@ -43,6 +43,7 @@ function run(){
     const tableDirectory = getTableDirectory(data);
     console.log(JSON.stringify(tableDirectory, null, 2));
     console.log(data.length);
+    console.log(tableDirectory.tableRecord);
     // Right now I'm not worrying about a checksum because I'm using a trusted font
 }
 // tags are 4 uint8s
